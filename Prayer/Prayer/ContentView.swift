@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color.mint.ignoresSafeArea()
+            Image("Mosque").resizable().ignoresSafeArea()
             VStack{
                 HStack {
                     Image(systemName: "cube.fill").padding()
